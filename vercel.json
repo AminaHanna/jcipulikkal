@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/index.html",
-      "dest": "/assets/index.html"
+      "source": "/index.html",
+      "destination": "/assets/index.html"
     }
   ]
 }
