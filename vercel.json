@@ -1,5 +1,8 @@
 {
-  "rewrites": [
-    { "source": "/custom.html", "destination": "/public/custom.html" }
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/404.html"
+    }
   ]
 }
